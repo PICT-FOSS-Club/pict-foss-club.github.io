@@ -1,1 +1,0 @@
-# pict-foss-club.github.iogi
