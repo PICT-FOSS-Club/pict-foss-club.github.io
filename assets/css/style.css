@@ -1424,14 +1424,7 @@ section {
 .contact .php-email-form button[type=submit]:hover {
   background: #ef6445;
 }
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
