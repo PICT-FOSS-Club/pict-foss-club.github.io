@@ -102,6 +102,33 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
+
+/*--------------------------------------------------------------
+# ScrollBar
+--------------------------------------------------------------*/
+/* width of the scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track { 
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #eb6d51; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ed502e; 
+}
+
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
