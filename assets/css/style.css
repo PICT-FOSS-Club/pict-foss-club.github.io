@@ -1153,7 +1153,26 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.team .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.team .card-outline{
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}
+.team .member img{
+  height: 300px;
+  width: 300px;
+}
 .team .member {
+  border: 1px solid #343a40;
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
   text-align: center;
   margin-bottom: 20px;
   background: #343a40;
