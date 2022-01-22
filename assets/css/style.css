@@ -513,7 +513,8 @@ section {
 }
 
 .section-title {
-  padding-bottom: 40px;
+  padding-bottom: 1vh;
+  padding-top: 2vh;
 }
 .section-title h2 {
   font-size: 14px;
@@ -593,6 +594,18 @@ section {
   background: #ed502e;
   color: #fff;
   text-decoration: none;
+}
+#aboutFossLink a button{
+  padding: 5px;
+  background: none;
+  border: 2px solid orangered;
+  color: orangered;
+  border-radius: 5px;
+}
+#aboutFossLink a button:hover{
+  background-color: orangered;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 /*--------------------------------------------------------------
@@ -1342,6 +1355,9 @@ section {
   .pricing .box {
     max-width: 100%;
     margin: 0 auto 30px auto;
+  }
+  #morelinks{
+    display: block !important;
   }
 }
 

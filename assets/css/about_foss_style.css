@@ -1,3 +1,9 @@
 body{
       font-size: 1.2em;
 }
+
+@media screen and (max-width:420px) {
+      .section-title h2{
+            line-height: inherit !important;
+      }
+}
