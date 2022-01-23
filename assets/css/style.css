@@ -1899,11 +1899,12 @@ time {
 
 .about-foss-link {
   width: 70%;
-  border-radius: 10px;
+  border-radius: 20px;
   color: #fff;
   background-color: #fff;
   transition: all ease 0.3s;
   font-weight: 700;
+  border: 1px solid #ed502e;
 }
 
 .about-foss-link:hover {
