@@ -852,7 +852,7 @@ section {
   border-radius: 20px;
   background: #fff;
   box-shadow:  20px 20px 41px #bebebe,
-              -20px -20px 41px #ffffff;
+  -20px -20px 41px #ffffff;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   margin: 10px
@@ -1909,5 +1909,30 @@ time {
 
 .about-foss-link:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-        0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer-info h3{
+  display: inline-block;
+}
+
+.footer-info .logo .img-fluid{
+  width: 10%;
+  height: 10%;
+}
+
+.footer-info .logo{
+  padding: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .footer-info h3{
+    display: block;
+    padding: 10px;
+  }
+  .footer-info .logo{
+    width: 20%;
+    height: 20%;
+    padding: 10px;
+  }
 }
