@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 .leftNavpart a{
-  margin-left: 6px !important;
+  margin-left: 0.1vh !important;
 }
 
 /*--------------------------------------------------------------
