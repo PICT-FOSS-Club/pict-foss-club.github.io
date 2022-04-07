@@ -926,7 +926,7 @@ section {
 .services .icon-box:hover .icon::before {
   background: #f1775d;
 }
-.services .icon-box:hover h4 a, .services .icon-box:hover p {
+.services .icon-box:hover h4  , .services .icon-box:hover  p{
   color: #fff;
 }
 
@@ -1229,11 +1229,13 @@ section {
   font-weight: 700;
   text-align: center;
 }
+.name{float: left;}
 
-.team .row .card .content .department{
+.team .row .card .content .department .position {
   font-size: 14px;
   text-align: center;
 }
+.position{color: #d54829;}
 
 .team .row .card .content .handles{
   display: flex;
@@ -1943,4 +1945,20 @@ time {
     height: 20%;
     padding: 10px;
   }
+}
+
+#fosstalk-main{
+  margin-top: 8rem;
+}
+
+.card-img-top{
+  height: 20rem;
+  width: 20rem;
+}
+.card{
+  width: 20rem;
+}
+
+.card{
+  box-shadow: gray 0px 5px 12px 7px;
 }
